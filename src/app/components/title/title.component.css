@@ -1,3 +1,9 @@
+.title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .title {
   margin: 15px 0;
   font-size: 130px;
@@ -5,8 +11,4 @@
   justify-content: center;
   font-family: sans-serif;
   font-weight: bold;
-}
-
-.title-container > hr {
-  margin: 20px 0;
 }

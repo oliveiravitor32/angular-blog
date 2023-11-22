@@ -1,27 +1,29 @@
-<app-header></app-header>
-
 <app-title></app-title>
 
 <div class="container-articles">
   <div class="articles-main">
     <app-big-card
-      photoCover="../../../assets/placeholder.png"
-      cardTitle="Title..."
-      cardDescription="description...."
+      [newsId]="1"
+      photoCover="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      cardTitle="Programando em 2023"
+      cardDescription="Lorem ipsum dolor sit amet,m lacus. Nulla eu nulla tristique, vehicula mi quis, condimentum leo. Nunc pretium sit amet nunc fringilla venenatis. Donec sit amet ex dignissim, luctus purus quis, lobortis ligula. Donec tortor metus, consequat quis urna semper, viverra consectetur arcu. Nunc at leo mi. Praesent pellentesque leo at sagittis posuere. Nunc velit tortor, facilisis sit amet pulvinar ut, vehicula pretium massa. Duis id placerat est. Ut maximus est at eros feugiat, non aliquam magna sollicitudin. Vestibulum quis quam lobortis, vehicula velit"
     ></app-big-card>
   </div>
   <div class="article-others">
     <app-small-card
-      photoCover="../../../assets/placeholder.png"
-      cardTitle="Title 1"
+      [newsId]="2"
+      photoCover="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      cardTitle="Organização em seu ambiente de trabalho"
     ></app-small-card>
     <app-small-card
-      photoCover="../../../assets/placeholder.png"
-      cardTitle="Title 2"
+      [newsId]="3"
+      photoCover="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      cardTitle="Inteligência artificial"
     ></app-small-card>
     <app-small-card
-      photoCover="../../../assets/placeholder.png"
-      cardTitle="Title 3"
+      [newsId]="4"
+      photoCover="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      cardTitle="Redes sociais"
     ></app-small-card>
   </div>
 </div>
