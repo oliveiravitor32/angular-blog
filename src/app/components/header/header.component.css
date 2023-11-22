@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.container-menu {
+  margin-top: 15px;
+}
+
+.container-menu > ul {
+  display: flex;
+}
+
+.container-menu > ul > li {
+  list-style: none;
+  margin-right: 20px;
+}
